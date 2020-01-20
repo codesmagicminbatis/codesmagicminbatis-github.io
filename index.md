@@ -1,37 +1,44 @@
-## Features
+## Install The Plugin
+TBD
 
-You can use the [editor on GitHub](https://github.com/codesmagicminbatis/codesmagicminbatis-github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+## Dynamic SQL Parsing
+TBD
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Auto Folding/Unfolding
+TBD
 
-### Markdown
+## Auto SQL Indent
+TBD
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## SQL Format
+TBD
 
-```markdown
-Syntax highlighted code block
+## Context/Type Infer
+TBD
 
-# Header 1
-## Header 2
-### Header 3
+## Add @Param Annotation
+TBD
 
-- Bulleted
-- List
+## Code Completion
+TBD
 
-1. Numbered
-2. List
+## Find Usage
+TBD
 
-**Bold** and _Italic_ and `Code` text
+## Renaming
+TBD
 
-[Link](url) and ![Image](src)
-```
+## Inspections
+TBD
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### OGNL Support
+TBD
 
-### Jekyll Themes
+## Spring Integration
+TBD
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/codesmagicminbatis/codesmagicminbatis-github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Mapper XML
+TBD
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## Compatibility
+TBD

@@ -36,7 +36,11 @@
     {{ content }}
 
     <footer class="site-footer">
-        <span class="site-footer-credits">Copyright Codes Magic. 2013 - {{ site.time | date: '%Y' }}.</span>
+        <span class="site-footer-credits">
+            <a href='mailto:service@codesmagic.com?Subject={{ site.pname }}%20Support'>Contact Us</a>
+            <span class="separator">·</span>
+            Copyright Codes Magic. 2013 - {{ site.time | date: '%Y' }}
+        </span>
     </footer>
 </main>
 </body>
