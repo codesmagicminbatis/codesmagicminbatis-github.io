@@ -27,3 +27,5 @@ dependency-reduced-pom.xml
 ignored/
 dubbo_event_service.*
 **/fqueue*
+.jekyll-cache
+_site

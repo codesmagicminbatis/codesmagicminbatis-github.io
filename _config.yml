@@ -1,1 +1,5 @@
 theme: jekyll-theme-cayman
+title: MinBatis
+description: A desired IntelliJ IDEA plugin working with MyBatis framework.
+google_analytics: UA-72182328-2
+show_downloads: true
