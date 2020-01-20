@@ -20,16 +20,15 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 </head>
 <body>
-<a id="skip-to-content" href="#content">Skip to the content.</a>
 
 <header class="page-header" role="banner">
-    <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-    <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
+    <h1 class="project-name">{{ site.title }}</h1>
+    <h2 class="project-tagline">{{ site.description }}</h2>
     {% if site.github.is_project_page %}
-    <a target="_blank" href="https://plugins.jetbrains.com/plugin/12634-iedis-2/pricing#edition=commercial" class="btn">Purchase</a>
+    <a target="_blank" href='https://plugins.jetbrains.com/plugin/{{ site.pid }}/pricing#edition=commercial' class="btn">Purchase</a>
     {% endif %}
     {% if site.show_downloads %}
-    <a target="_blank" href="https://plugins.jetbrains.com/plugin/12634-iedis-2/versions" class="btn">Download .zip</a>
+    <a target="_blank" href='https://plugins.jetbrains.com/plugin/{{ site.pid }}/versions' class="btn">Download</a>
     {% endif %}
 </header>
 
