@@ -31,7 +31,7 @@ TBD
 ## Inspections
 TBD
 
-### OGNL Support
+## OGNL Support
 TBD
 
 ## Spring Integration
