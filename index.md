@@ -6,7 +6,7 @@ description: "A desired IntelliJ IDEA plugin working with MyBatis framework."
 permalink: /
 ---
 
-# Focus on writing good documentation
+# Focus on your application
 {: .fs-9 }
 
 Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.

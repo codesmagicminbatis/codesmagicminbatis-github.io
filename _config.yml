@@ -1,6 +1,7 @@
 title: MinBatis
 ga_tracking: UA-72182328-2
-theme: just-the-docs
+remote_theme:  pmarsceill/just-the-docs
+url: "https://minbatis.codesmagic.com"
 search_enabled: true
 search_tokenizer_separator: /[\s/]+/
 heading_anchors: true
