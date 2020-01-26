@@ -1,44 +1,17 @@
-## Install The Plugin
-TBD
+---
+layout: default
+title: Home
+nav_order: 1
+description: "A desired IntelliJ IDEA plugin working with MyBatis framework."
+permalink: /
+---
 
-## Dynamic SQL Parsing
-TBD
+# Focus on writing good documentation
+{: .fs-9 }
 
-## Auto Folding/Unfolding
-TBD
+Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages.
+{: .fs-6 .fw-300 }
 
-## Auto SQL Indent
-TBD
+[Purchase](https://plugins.jetbrains.com/plugin/13720-minbatis/pricing#edition=commercial){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Download](docs/install-the-plugin){: .btn .fs-5 .mb-4 .mb-md-0 }
 
-## SQL Format
-TBD
-
-## Context/Type Infer
-TBD
-
-## Add @Param Annotation
-TBD
-
-## Code Completion
-TBD
-
-## Find Usage
-TBD
-
-## Renaming
-TBD
-
-## Inspections
-TBD
-
-## OGNL Support
-TBD
-
-## Spring Integration
-TBD
-
-## Mapper XML
-TBD
-
-## Compatibility
-TBD
+---

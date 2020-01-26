@@ -1,7 +1,20 @@
 title: MinBatis
-description: A desired IntelliJ IDEA plugin working with MyBatis framework.
-google_analytics: UA-72182328-2
-show_downloads: true
-theme: jekyll-theme-cayman
-pname: MinBatis
-pid: 13720-minbatis
+ga_tracking: UA-72182328-2
+theme: just-the-docs
+search_enabled: true
+search_tokenizer_separator: /[\s/]+/
+heading_anchors: true
+exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"]
+plugins:
+  - jekyll-seo-tag
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
+aux_links:
+  "Purchase":
+    - "https://plugins.jetbrains.com/plugin/13720-minbatis/pricing#edition=commercial"
+footer_content: "Copyright © 2013-2020 Codes Magic."
