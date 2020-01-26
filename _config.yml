@@ -18,4 +18,4 @@ compress_html:
 aux_links:
   "Purchase":
     - "https://plugins.jetbrains.com/plugin/13720-minbatis/pricing#edition=commercial"
-footer_content: "Copyright © 2013-2020 Codes Magic."
+footer_content: "Copyright © 2013-2020 Codes Magic. <a href=\"mailto:service@codesmagic.com?Subject=MinBatis%20Support\">Contact Us</a> · <a href=\"https://eula.codesmagic.com\" target=\"_blank\">License</a>"
