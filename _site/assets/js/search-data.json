@@ -14,7 +14,7 @@
   }
   ,"2": {
     "title": "Auto SQL Indent",
-    "content": "SQL Indent . Indention is the string (containing of tabs and/or white spaces) that will be inserted automatically before the caret after you type ↩. . Normal SQL Indent . MinBatis support indent for normal SQL indent: . . Dynamic SQL Indent . Indention works for script as well: . .",
+    "content": "SQL Indent . Indention is the string (containing of tabs and/or white spaces) that will be inserted automatically before the caret after you type ↩. . Normal SQL Indent . MinBatis support indent for normal SQL indent. . . Dynamic SQL Indent . Indention works for script as well. . .",
     "url": "http://localhost:4000/docs/auto-sql-indent.html",
     "relUrl": "/docs/auto-sql-indent.html"
   }
@@ -31,76 +31,76 @@
     "relUrl": "/docs/code-completion.html"
   }
   ,"5": {
-    "title": "Code Style",
-    "content": "Code Style . TBD .",
-    "url": "http://localhost:4000/docs/code-style.html",
-    "relUrl": "/docs/code-style.html"
-  }
-  ,"6": {
     "title": "Column reference",
     "content": "Column reference . TBD .",
     "url": "http://localhost:4000/docs/column-reference.html",
     "relUrl": "/docs/column-reference.html"
   }
-  ,"7": {
+  ,"6": {
     "title": "Compatibility",
-    "content": "Compatibility . TBD .",
+    "content": "Compatibility . MinBatis may not be compatible with the following plugins: . Our previous MyBatis plugin | MyBatisCodeHelperPro | . Missing Features . You can Contact Us if you need any features that incompatible plugins provide. .",
     "url": "http://localhost:4000/docs/compatibility.html",
     "relUrl": "/docs/compatibility.html"
   }
-  ,"8": {
-    "title": "Context/Type Infer",
-    "content": "Context/Type Infer . TBD .",
-    "url": "http://localhost:4000/docs/context-type-infer.html",
-    "relUrl": "/docs/context-type-infer.html"
-  }
-  ,"9": {
+  ,"7": {
     "title": "Convert to Dynamic SQL",
     "content": "Convert to Dynamic SQL . TBD .",
     "url": "http://localhost:4000/docs/convert-to-dynamic.html",
     "relUrl": "/docs/convert-to-dynamic.html"
   }
-  ,"10": {
+  ,"8": {
     "title": "Copy SQL",
     "content": "Copy SQL . TBD .",
     "url": "http://localhost:4000/docs/copy-sql.html",
     "relUrl": "/docs/copy-sql.html"
   }
-  ,"11": {
+  ,"9": {
     "title": "Dynamic SQL Parsing",
-    "content": "MyBatis Plugin . There are two main issues that our previous MyBatis Plugin can’t handle properly. Let’s see what’s are these. . Dynamic SQL in Annotation . MyBatis Plugin can’t parse dynamic SQL in Java annotation which causes many unexpected errors like this: . . Parse Dynamic SQL . MyBatis Plugin can’t parse dynamic SQL which causes that some syntax errors are ignored: . . MinBatis . MinBatis can parse dynamic SQL well and the two main issues are gone. . Dynamic SQL in Annotation . MinBatis supports dynamic SQL in Java annotation: . . Parse Dynamic SQL . MinBatis parses dynamic SQL properly: . . Other Features . As we’ll see that some other features are implemented based on the correctly parsed dynamic SQL. .",
+    "content": "MyBatis Plugin . There are two main issues that our previous MyBatis Plugin can’t handle properly. Let’s see what’s are these. . Dynamic SQL in Annotation . MyBatis Plugin can’t parse dynamic SQL in Java annotation which causes many unexpected errors like this: . . Parse Dynamic SQL . MyBatis Plugin can’t parse dynamic SQL which causes that some syntax errors are ignored. . . MinBatis . MinBatis can parse dynamic SQL well and the two main issues are gone. . Dynamic SQL in Annotation . MinBatis supports dynamic SQL in Java annotation. . . Parse Dynamic SQL . MinBatis parses dynamic SQL properly. . . Other Features . As we’ll see that some other features are implemented based on the correctly parsed dynamic SQL. .",
     "url": "http://localhost:4000/docs/dynamic-sql-parsing.html",
     "relUrl": "/docs/dynamic-sql-parsing.html"
   }
-  ,"12": {
+  ,"10": {
+    "title": "Error Highlighting",
+    "content": "Error Highlighting . TBD .",
+    "url": "http://localhost:4000/docs/error-highlighting.html",
+    "relUrl": "/docs/error-highlighting.html"
+  }
+  ,"11": {
     "title": "Find Usage",
     "content": "Find Usage . TBD .",
     "url": "http://localhost:4000/docs/find-usage.html",
     "relUrl": "/docs/find-usage.html"
   }
-  ,"13": {
+  ,"12": {
     "title": "Home",
     "content": "Focus on your application . MinBatis is a desired IntelliJ IDEA plugin for these users who are working with MyBatis framework. It saves you a lot of time on typing and helps you discover errors early. . Purchase Download . . Getting started . Download IntelliJ IDEA . MinBatis runs as a plugin of IntelliJ IDEA Ultimate. You need to install IntelliJ IDEA Ultimate first, visit here to download and install it. . Install MinBatis . If this is the first time you’ve started the app, you’ll see the welcome screen: . . To install MinBatis, open the plugins dialog from the configure menu: . . Type MinBatis to search it and then install the plugin from browse repositories dialog: . . You need to restart the IDEA after you install the plugin. .",
     "url": "http://localhost:4000/",
     "relUrl": "/"
   }
-  ,"14": {
+  ,"13": {
     "title": "Inspections",
     "content": "Inspections . TBD .",
     "url": "http://localhost:4000/docs/inspections.html",
     "relUrl": "/docs/inspections.html"
   }
-  ,"15": {
+  ,"14": {
     "title": "Mapper XML",
-    "content": "Mapper XML . TBD .",
+    "content": "Mapper XML . We’re still busy working on supporting mapper XML, it’ll be released as soon as it’s done. .",
     "url": "http://localhost:4000/docs/mapper-xml.html",
     "relUrl": "/docs/mapper-xml.html"
   }
-  ,"16": {
+  ,"15": {
     "title": "OGNL Support",
     "content": "OGNL Support . TBD .",
     "url": "http://localhost:4000/docs/ognl-support.html",
     "relUrl": "/docs/ognl-support.html"
+  }
+  ,"16": {
+    "title": "Parameter Expression",
+    "content": "Parameter Expression . Mybatis supports simple parameter expression in SQL statements. Parameters can specify a more specific data type in SQL parameter with parameter expression. You can find more details about parameter expression at MyBatis Documentation and ParameterExpression . Builtin Support . The plugin integrates parameter expression as a custom language in IntelliJ. It’s context-aware and very useful. . . Color Scheme . You can customize the color scheme for the custom language in settings. Open the configuration dialog via Preferences/Settings -&gt; Editor -&gt; Color Scheme -&gt; Min Marker. . .",
+    "url": "http://localhost:4000/docs/parameter-expression.html",
+    "relUrl": "/docs/parameter-expression.html"
   }
   ,"17": {
     "title": "Rename Refactor",
@@ -116,7 +116,7 @@
   }
   ,"19": {
     "title": "SQL Format",
-    "content": "SQL Format . TBD .",
+    "content": "SQL Format . MinBatis can format SQL (dynamic SQL) in Java annotation. . . Code Style . We can configure the code style via Preferences/Settings -&gt; Editor -&gt; Code Style -&gt; MinBatis. . . Formatter Control . Use formatter marker to disable code formatting for some part of the code. Open the configuration dialog via Preferences/Settings -&gt; Editor -&gt; Code Style -&gt; Formatter Control. . .",
     "url": "http://localhost:4000/docs/sql-format.html",
     "relUrl": "/docs/sql-format.html"
   }

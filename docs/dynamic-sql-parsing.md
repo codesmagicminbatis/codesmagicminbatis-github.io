@@ -14,7 +14,7 @@ Let's see what's are these.
 ![annotation dynamic sql](/assets/images/dynamic-sql-parsing/annotation-dynamic-sql.png)
 
 ## Parse Dynamic SQL
-*MyBatis Plugin* can't parse dynamic SQL which causes that some syntax errors are ignored:
+*MyBatis Plugin* can't parse dynamic SQL which causes that some syntax errors are ignored.
 
 ![syntax error](/assets/images/dynamic-sql-parsing/syntax-error.png)
 
@@ -22,12 +22,12 @@ Let's see what's are these.
 **MinBatis** can parse dynamic SQL well and the two main issues are gone.
 
 ### Dynamic SQL in Annotation
-**MinBatis** supports dynamic SQL in Java annotation:
+**MinBatis** supports dynamic SQL in Java annotation.
 
 ![annotation dynamic sql](/assets/images/dynamic-sql-parsing/annotation-dynamic-sql-2.png)
 
 ## Parse Dynamic SQL
-**MinBatis** parses dynamic SQL properly:
+**MinBatis** parses dynamic SQL properly.
 
 ![syntax error highlighting](/assets/images/dynamic-sql-parsing/syntax-error-highlighting.png)
 

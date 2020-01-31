@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Spring Integration
-nav_order: 19
+nav_order: 18
 ---
 
 # Spring Integration

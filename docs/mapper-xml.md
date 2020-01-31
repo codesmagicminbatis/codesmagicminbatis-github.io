@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Mapper XML
-nav_order: 20
+nav_order: 19
 ---
 
 # Mapper XML
-TBD
+We're still busy working on supporting mapper XML, it'll be released as soon as it's done.
