@@ -2,7 +2,7 @@
   
   "0": {
     "title": "Add @Param Annotation",
-    "content": "Add @Param Annotation . TBD .",
+    "content": "Add @Param Annotation . MinBatis provides an intention action to add @Param to method parameter more convenient. MinBatis automatically adds prefix to existing parameter in SQL statement when adding @Param annotation. This is also a very useful feature when we do refactor (e.g., add more parameter to the mapper method, etc.). . .",
     "url": "http://localhost:4000/docs/add-param-annotation.html",
     "relUrl": "/docs/add-param-annotation.html"
   }
@@ -20,7 +20,7 @@
   }
   ,"3": {
     "title": "CDATA Aware",
-    "content": "CDATA Aware . TBD .",
+    "content": "CDATA Aware . Dynamic SQL is made CDATA aware in Java annotation and highlight it using gray color so that we can focus on SQL which we care more. . .",
     "url": "http://localhost:4000/docs/cddata-aware.html",
     "relUrl": "/docs/cddata-aware.html"
   }
@@ -38,13 +38,13 @@
   }
   ,"6": {
     "title": "Convert to Dynamic SQL",
-    "content": "Convert to Dynamic SQL . TBD .",
+    "content": "Convert to Dynamic SQL . There are times while writing plain SQL, we find that we need dynamic SQL instead of plain one. MinBatis provides an intention action to convert plain SQL to dynamic SQL. This saves the time of moving caret and typing. The code is also well formatted after converted to dynamic SQL. . .",
     "url": "http://localhost:4000/docs/convert-to-dynamic.html",
     "relUrl": "/docs/convert-to-dynamic.html"
   }
   ,"7": {
     "title": "Copy SQL",
-    "content": "Copy SQL . TBD .",
+    "content": "Copy SQL . There are situation we may need to copy the SQL (dynamic SQL) from our code. MinBatis provides an intention action to do this. It’s very useful in Java annotation and for dynamic SQL. MinBatis replaces proper elements for dynamic SQL when copying the SQL. . .",
     "url": "http://localhost:4000/docs/copy-sql.html",
     "relUrl": "/docs/copy-sql.html"
   }
@@ -103,12 +103,6 @@
     "relUrl": "/docs/rename-refactor.html"
   }
   ,"17": {
-    "title": "Spring Integration",
-    "content": "Spring Integration . TBD .",
-    "url": "http://localhost:4000/docs/spring-integration.html",
-    "relUrl": "/docs/spring-integration.html"
-  }
-  ,"18": {
     "title": "SQL Format",
     "content": "SQL Format . MinBatis can format SQL (dynamic SQL) in Java annotation. . . Code Style . We can configure the code style via Preferences/Settings -&gt; Editor -&gt; Code Style -&gt; MinBatis. . . Formatter Control . Use formatter marker to disable code formatting for some part of the code. Open the configuration dialog via Preferences/Settings -&gt; Editor -&gt; Code Style -&gt; Formatter Control. . .",
     "url": "http://localhost:4000/docs/sql-format.html",
