@@ -55,66 +55,60 @@
     "relUrl": "/docs/dynamic-sql-parsing.html"
   }
   ,"9": {
-    "title": "Error Highlighting",
-    "content": "Error Highlighting . TBD .",
-    "url": "http://localhost:4000/docs/error-highlighting.html",
-    "relUrl": "/docs/error-highlighting.html"
-  }
-  ,"10": {
     "title": "Find Usage",
-    "content": "Find Usage . When you write or edit code, you might come across a code element that you want to change or delete. Before you make the changes, it is a good practice to see where the code element is used and how it affects the application. With the Find Usages actions you can search for the references of your code element throughout the whole codebase. You can find more about Find Usage at Search for usages. . With MinBatis, you can find the usage of elements that may be potentially used by MyBatis framework. . Getter/Setter Method . . Bean Field . . Parameter . . @Param . . Constructor . . Table Column . . Mark Symbol as Used . Without MinBatis, some symbols will be marked as never used or never assigned by IntelliJ IDEA even if it’s actually used by MyBatis framework. . . MinBatis can detect those symbols used by MyBatis framework and mark them as used, finally the highlighting is gone. This also works for private members. . .",
+    "content": "Find Usage . When you write or edit code, you might come across a code element that you want to change or delete. Before you make the changes, it is a good practice to see where the code element is used and how it affects the application. With the Find Usages actions you can search for the references of your code element throughout the whole codebase. You can find more about Find Usage at Search for usages. . With MinBatis, you can find the usage of elements that may be potentially used by MyBatis framework. . Getter/Setter Method . . Bean Field . . Parameter . . @Param . . Constructor Parameter . . Table Column . . Mark Symbol as Used . Without MinBatis, some symbols will be marked as never used or never assigned by IntelliJ IDEA even if it’s actually used by MyBatis framework. . . MinBatis can detect those symbols used by MyBatis framework and mark them as used, finally the highlighting is gone. This also works for private members. . .",
     "url": "http://localhost:4000/docs/find-usage.html",
     "relUrl": "/docs/find-usage.html"
   }
-  ,"11": {
+  ,"10": {
     "title": "Home",
     "content": "Focus on your application . MinBatis is a desired IntelliJ IDEA plugin for these users who are working with MyBatis framework. It saves you a lot of time on typing and helps you discover errors early. . Purchase Download . . Getting started . Download IntelliJ IDEA . MinBatis runs as a plugin of IntelliJ IDEA Ultimate. You need to install IntelliJ IDEA Ultimate first, visit here to download and install it. . Install MinBatis . If this is the first time you’ve started the app, you’ll see the welcome screen: . . To install MinBatis, open the plugins dialog from the configure menu: . . Type MinBatis to search it and then install the plugin from browse repositories dialog: . . You need to restart the IDEA after you install the plugin. .",
     "url": "http://localhost:4000/",
     "relUrl": "/"
   }
-  ,"12": {
+  ,"11": {
     "title": "Inspections",
-    "content": "Inspections . TBD .",
+    "content": "Error Highlighting . MinBatis resolves symbols according to how MyBatis framework uses them and highlights the symbols which MyBatis framework can’t parse. This feature can lead us to discover our code error earlier before we run the application. . . Inspections . MinBatis have many inspections which are implemented based on MyBatis source code. They are very useful and save us a lot of time on debugging. There are many inspections available now and we gonna add more of them in the futures. . .",
     "url": "http://localhost:4000/docs/inspections.html",
     "relUrl": "/docs/inspections.html"
   }
-  ,"13": {
+  ,"12": {
     "title": "Mapper XML",
     "content": "Mapper XML . We’re still busy working on supporting mapper XML, it’ll be released as soon as it’s done. .",
     "url": "http://localhost:4000/docs/mapper-xml.html",
     "relUrl": "/docs/mapper-xml.html"
   }
-  ,"14": {
+  ,"13": {
     "title": "Navigation",
     "content": "Navigation . With MinBatis, we can navigate through code using different actions and popups. Navigation is context-aware which means it navigates to different elements according to different contexts. . .",
     "url": "http://localhost:4000/docs/navigation.html",
     "relUrl": "/docs/navigation.html"
   }
-  ,"15": {
+  ,"14": {
     "title": "OGNL Support",
     "content": "OGNL Support . MyBatis uses OGNL to support dynamic SQL which is very powerful. You can find more details about OGNL at Dynamic SQL. . You can use it with following elements in dynamic SQL: . if | when | bind | dynamic parameter | . MinBatis integrates OGNL to support auto-completion, inspections, navigation, refactoring, etc. . . OGNL Identifier . Our previous MyBatis plugin can’t parse OGNL identifier well which causes some features (e.g., identifier chain, find usage, rename refactor, etc.) are missing. MinBatis parses OGNL identifier the right way which provides the missing features. . .",
     "url": "http://localhost:4000/docs/ognl-support.html",
     "relUrl": "/docs/ognl-support.html"
   }
-  ,"16": {
+  ,"15": {
     "title": "Parameter Expression",
     "content": "Parameter Expression . Mybatis supports simple parameter expression in SQL statements. Parameters can specify a more specific data type in SQL parameter with parameter expression. You can find more details about parameter expression at MyBatis Documentation and ParameterExpression . Builtin Support . The plugin integrates parameter expression as a custom language in IntelliJ. It’s context-aware and very useful. . . Color Scheme . You can customize the color scheme for the custom language in settings. Open the configuration dialog via Preferences/Settings -&gt; Editor -&gt; Color Scheme -&gt; Min Marker. . .",
     "url": "http://localhost:4000/docs/parameter-expression.html",
     "relUrl": "/docs/parameter-expression.html"
   }
-  ,"17": {
+  ,"16": {
     "title": "Rename Refactor",
-    "content": "Rename Refactor . TBD .",
+    "content": "Rename Refactor . Rename refactor is a common action in our daily work and MinBatis makes it easier when working with MyBatis framework. . Rename Getter/Setter Method . . Rename Bean Field . . Rename Parameter . . Rename @Param . . Rename Constructor Parameter . . Rename Table Column . .",
     "url": "http://localhost:4000/docs/rename-refactor.html",
     "relUrl": "/docs/rename-refactor.html"
   }
-  ,"18": {
+  ,"17": {
     "title": "Spring Integration",
     "content": "Spring Integration . TBD .",
     "url": "http://localhost:4000/docs/spring-integration.html",
     "relUrl": "/docs/spring-integration.html"
   }
-  ,"19": {
+  ,"18": {
     "title": "SQL Format",
     "content": "SQL Format . MinBatis can format SQL (dynamic SQL) in Java annotation. . . Code Style . We can configure the code style via Preferences/Settings -&gt; Editor -&gt; Code Style -&gt; MinBatis. . . Formatter Control . Use formatter marker to disable code formatting for some part of the code. Open the configuration dialog via Preferences/Settings -&gt; Editor -&gt; Code Style -&gt; Formatter Control. . .",
     "url": "http://localhost:4000/docs/sql-format.html",

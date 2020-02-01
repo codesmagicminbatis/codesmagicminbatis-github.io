@@ -28,7 +28,7 @@ With MinBatis, you can find the usage of elements that may be potentially used b
 
 ![param annotation](/assets/images/find-usage/param-annotation.png)
 
-## Constructor
+## Constructor Parameter
 
 ![constructor](/assets/images/find-usage/constructor.png)
 
