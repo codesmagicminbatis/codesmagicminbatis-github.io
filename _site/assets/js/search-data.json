@@ -2,19 +2,19 @@
   
   "0": {
     "title": "Add @Param Annotation",
-    "content": "Add @Param Annotation . MinBatis provides an intention action to add @Param to method parameter more convenient. MinBatis automatically adds prefix to existing parameter in SQL statement when adding @Param annotation. This is also a very useful feature when we do refactor (e.g., add more parameter to the mapper method, etc.). . .",
+    "content": "Add @Param Annotation . MinBatis provides an intention action to add @Param to method parameter more convenient. MinBatis automatically adds prefix to existing parameter in SQL statement when adding @Param annotation. This is also a very useful feature when we do refactor (e.g., add more parameter to the mapper method, etc.). .",
     "url": "http://localhost:4000/docs/add-param-annotation.html",
     "relUrl": "/docs/add-param-annotation.html"
   }
   ,"1": {
     "title": "Auto Folding/Unfolding",
-    "content": "Auto Folding/Unfolding . In order to improve SQL readability, MinBatis auto folds SQL statement in Java annotation when it loses focus and a SQL statement is unfolded when it get focused again to make it easy for editing. Focus here means that the caret is placed on a SQL statement. . . Auto-unfolding is made 500ms delayed when a SQL statement get focused in order to avoid unexpected unfolding when we move caret by keyboard narrows quickly. . Let’s see what it looks like: . .",
+    "content": "Auto Folding/Unfolding . In order to improve SQL readability, MinBatis auto folds SQL statement in Java annotation when it loses focus and a SQL statement is unfolded when it get focused again to make it easy for editing. Focus here means that the caret is placed on a SQL statement. . . Auto-unfolding is made 500ms delayed when a SQL statement get focused in order to avoid unexpected unfolding when we move caret by keyboard narrows quickly. . Let’s see what it looks like: .",
     "url": "http://localhost:4000/docs/auto-folding-unfolding.html",
     "relUrl": "/docs/auto-folding-unfolding.html"
   }
   ,"2": {
     "title": "Auto SQL Indent",
-    "content": "SQL Indent . Indention is the string (containing of tabs and/or white spaces) that will be inserted automatically before the caret after you type ↩. . Normal SQL Indent . MinBatis support indent for normal SQL indent. . . Dynamic SQL Indent . Indention works for script as well. . .",
+    "content": "SQL Indent . Indention is the string (containing of tabs and/or white spaces) that will be inserted automatically before the caret after you type ↩. . Normal SQL Indent . MinBatis support indent for normal SQL indent. . Dynamic SQL Indent . Indention works for script as well. .",
     "url": "http://localhost:4000/docs/auto-sql-indent.html",
     "relUrl": "/docs/auto-sql-indent.html"
   }
@@ -38,13 +38,13 @@
   }
   ,"6": {
     "title": "Convert to Dynamic SQL",
-    "content": "Convert to Dynamic SQL . There are times while writing plain SQL, we find that we need dynamic SQL instead of plain one. MinBatis provides an intention action to convert plain SQL to dynamic SQL. This saves the time of moving caret and typing. The code is also well formatted after converted to dynamic SQL. . .",
+    "content": "Convert to Dynamic SQL . There are times while writing plain SQL, we find that we need dynamic SQL instead of plain one. MinBatis provides an intention action to convert plain SQL to dynamic SQL. This saves the time of moving caret and typing. The code is also well formatted after converted to dynamic SQL. .",
     "url": "http://localhost:4000/docs/convert-to-dynamic.html",
     "relUrl": "/docs/convert-to-dynamic.html"
   }
   ,"7": {
     "title": "Copy SQL",
-    "content": "Copy SQL . There are situation we may need to copy the SQL (dynamic SQL) from our code. MinBatis provides an intention action to do this. It’s very useful in Java annotation and for dynamic SQL. MinBatis replaces proper elements for dynamic SQL when copying the SQL. . .",
+    "content": "Copy SQL . There are situation we may need to copy the SQL (dynamic SQL) from our code. MinBatis provides an intention action to do this. It’s very useful in Java annotation and for dynamic SQL. MinBatis replaces proper elements for dynamic SQL when copying the SQL. .",
     "url": "http://localhost:4000/docs/copy-sql.html",
     "relUrl": "/docs/copy-sql.html"
   }
@@ -80,7 +80,7 @@
   }
   ,"13": {
     "title": "Navigation",
-    "content": "Navigation . With MinBatis, we can navigate through code using different actions and popups. Navigation is context-aware which means it navigates to different elements according to different contexts. . .",
+    "content": "Navigation . With MinBatis, we can navigate through code using different actions and popups. Navigation is context-aware which means it navigates to different elements according to different contexts. .",
     "url": "http://localhost:4000/docs/navigation.html",
     "relUrl": "/docs/navigation.html"
   }
@@ -92,19 +92,19 @@
   }
   ,"15": {
     "title": "Parameter Expression",
-    "content": "Parameter Expression . Mybatis supports simple parameter expression in SQL statements. Parameters can specify a more specific data type in SQL parameter with parameter expression. You can find more details about parameter expression at MyBatis Documentation and ParameterExpression . Builtin Support . The plugin integrates parameter expression as a custom language in IntelliJ. It’s context-aware and very useful. . . Color Scheme . You can customize the color scheme for the custom language in settings. Open the configuration dialog via Preferences/Settings -&gt; Editor -&gt; Color Scheme -&gt; Min Marker. . .",
+    "content": "Parameter Expression . Mybatis supports simple parameter expression in SQL statements. Parameters can specify a more specific data type in SQL parameter with parameter expression. You can find more details about parameter expression at MyBatis Documentation and ParameterExpression . Builtin Support . The plugin integrates parameter expression as a custom language in IntelliJ. It’s context-aware and very useful. . Color Scheme . You can customize the color scheme for the custom language in settings. Open the configuration dialog via Preferences/Settings -&gt; Editor -&gt; Color Scheme -&gt; Min Marker. . .",
     "url": "http://localhost:4000/docs/parameter-expression.html",
     "relUrl": "/docs/parameter-expression.html"
   }
   ,"16": {
     "title": "Rename Refactor",
-    "content": "Rename Refactor . Rename refactor is a common action in our daily work and MinBatis makes it easier when working with MyBatis framework. . Rename Getter/Setter Method . . Rename Bean Field . . Rename Parameter . . Rename @Param . . Rename Constructor Parameter . . Rename Table Column . .",
+    "content": "Rename Refactor . Rename refactor is a common action in our daily work and MinBatis makes it easier when working with MyBatis framework. . Rename Getter/Setter Method . Rename Bean Field . Rename Parameter . Rename @Param . Rename Constructor Parameter . Rename Table Column .",
     "url": "http://localhost:4000/docs/rename-refactor.html",
     "relUrl": "/docs/rename-refactor.html"
   }
   ,"17": {
     "title": "SQL Format",
-    "content": "SQL Format . MinBatis can format SQL (dynamic SQL) in Java annotation. . . Code Style . We can configure the code style via Preferences/Settings -&gt; Editor -&gt; Code Style -&gt; MinBatis. . . Formatter Control . Use formatter marker to disable code formatting for some part of the code. Open the configuration dialog via Preferences/Settings -&gt; Editor -&gt; Code Style -&gt; Formatter Control. . .",
+    "content": "SQL Format . MinBatis can format SQL (dynamic SQL) in Java annotation. . Code Style . We can configure the code style via Preferences/Settings -&gt; Editor -&gt; Code Style -&gt; MinBatis. . Formatter Control . Use formatter marker to disable code formatting for some part of the code. Open the configuration dialog via Preferences/Settings -&gt; Editor -&gt; Code Style -&gt; Formatter Control. . .",
     "url": "http://localhost:4000/docs/sql-format.html",
     "relUrl": "/docs/sql-format.html"
   }
