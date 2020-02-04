@@ -44,7 +44,7 @@
   }
   ,"7": {
     "title": "Copy SQL",
-    "content": "Copy SQL . There are situation we may need to copy the SQL (dynamic SQL) from our code. MinBatis provides an intention action to do this. It’s very useful in Java annotation and for dynamic SQL. MinBatis replaces proper elements for dynamic SQL when copying the SQL. .",
+    "content": "Copy SQL . There are situation we may need to copy the SQL (dynamic SQL) from our code. MinBatis provides an intention action to do this. It’s very useful in Java annotation and for dynamic SQL. MinBatis replaces proper elements for dynamic SQL when copying the SQL. . Do format SQL before copy it. .",
     "url": "http://localhost:4000/docs/copy-sql.html",
     "relUrl": "/docs/copy-sql.html"
   }
