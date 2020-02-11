@@ -127,6 +127,8 @@ td, th { padding: 0; }
 
 .screenshot { -webkit-box-shadow: 0px 16px 30px 0px #a397a3; -moz-box-shadow: 0px 16px 30px 0px #a397a3; box-shadow: 0px 16px 30px 0px #a397a3; border-radius: 10px 10px 10px 10px; -moz-border-radius: 10px 10px 10px 10px; -webkit-border-radius: 10px 10px 10px 10px; border: 0px solid #000000; margin-bottom: 50px; margin-top: 10px; }
 
+.realtime { -webkit-box-shadow: 0px 16px 30px 0px #a397a3; -moz-box-shadow: 0px 16px 30px 0px #a397a3; box-shadow: 0px 16px 30px 0px #a397a3; border-radius: 10px 10px 10px 10px; -moz-border-radius: 10px 10px 10px 10px; -webkit-border-radius: 10px 10px 10px 10px; border: 0px solid #000000; margin-bottom: 50px; margin-top: 10px; }
+
 * { box-sizing: border-box; }
 
 ::selection { color: #fff; background: #7253ed; }
