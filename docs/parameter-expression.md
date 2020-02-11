@@ -19,4 +19,4 @@ It's context-aware and very useful.
 You can customize the color scheme for the custom language in settings.
 Open the configuration dialog via ```Preferences/Settings -> Editor -> Color Scheme -> Min Marker```.
 
-![color scheme](/assets/images/parameter-expression/color-scheme.png)
+![color scheme](/assets/images/parameter-expression/color-scheme.png){:class="screenshot"}

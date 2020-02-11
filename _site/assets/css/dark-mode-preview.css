@@ -2165,3 +2165,4 @@ pre.highlight code, figure.highlight code { padding: 0; border: 0; }
   .pl-xl-10 { padding-left: 4rem !important; }
   .px-xl-10 { padding-right: 4rem !important; padding-left: 4rem !important; }
   .py-xl-10 { padding-top: 4rem !important; padding-bottom: 4rem !important; } }
+.screenshot { -webkit-box-shadow: 0px 16px 30px 0px #a397a3; -moz-box-shadow: 0px 16px 30px 0px #a397a3; box-shadow: 0px 16px 30px 0px #a397a3; border-radius: 10px 10px 10px 10px; -moz-border-radius: 10px 10px 10px 10px; -webkit-border-radius: 10px 10px 10px 10px; border: 0px solid #000000; margin-bottom: 50px; margin-top: 10px; }

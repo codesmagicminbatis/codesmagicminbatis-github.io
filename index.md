@@ -24,14 +24,14 @@ You need to install IntelliJ IDEA Ultimate first, visit [here](https://www.jetbr
 ### Install MinBatis
 If this is the first time you’ve started the app, you’ll see the welcome screen:
 
-![welcome screen](/assets/images/getting-started/welcome-screen.png)
+![welcome screen](/assets/images/getting-started/welcome-screen.png){:class="screenshot"}
 
 To install MinBatis, open the plugins dialog from the configure menu:
 
-![configure menu](/assets/images/getting-started/configure-menu.png)
+![configure menu](/assets/images/getting-started/configure-menu.png){:class="screenshot"}
 
 Type MinBatis to search it and then install the plugin from browse repositories dialog:
 
-![search](/assets/images/getting-started/search.png)
+![search](/assets/images/getting-started/search.png){:class="screenshot"}
 
 **You need to restart the IDEA after you install the plugin.**

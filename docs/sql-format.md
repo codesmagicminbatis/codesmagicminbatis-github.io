@@ -18,4 +18,4 @@ We can configure the code style via ```Preferences/Settings -> Editor -> Code St
 Use formatter marker to disable code formatting for some part of the code.
 Open the configuration dialog via ```Preferences/Settings -> Editor -> Code Style -> Formatter Control```.
 
-![formatter control](/assets/images/sql-format/formatter-control.png)
+![formatter control](/assets/images/sql-format/formatter-control.png){:class="screenshot"}

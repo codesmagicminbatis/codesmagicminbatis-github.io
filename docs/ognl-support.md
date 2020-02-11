@@ -16,10 +16,10 @@ You can use it with following elements in dynamic SQL:
 
 MinBatis integrates OGNL to support auto-completion, inspections, navigation, refactoring, etc.
 
-![ognl](/assets/images/ognl-support/ognl.png)
+![ognl](/assets/images/ognl-support/ognl.png){:class="screenshot"}
 
 # OGNL Identifier
 Our previous **MyBatis plugin** can't parse OGNL identifier well which causes some features (e.g., identifier chain, find usage, rename refactor, etc.) are missing.
 MinBatis parses OGNL identifier the right way which provides the missing features.
 
-![better](/assets/images/ognl-support/better.png)
+![better](/assets/images/ognl-support/better.png){:class="screenshot"}
