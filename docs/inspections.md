@@ -13,6 +13,6 @@ This feature can lead us to discover our code error earlier before we run the ap
 # Inspections
 MinBatis have many inspections which are implemented based on MyBatis source code.
 They are very useful and save us a lot of time on debugging.
-There are many inspections available now and we gonna add more of them in the futures.
+There are many inspections available now and we gonna add more of them in the future.
 
 ![inspection](/assets/images/inspections/inspection.png){:class="screenshot"}
