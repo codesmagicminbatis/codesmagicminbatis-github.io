@@ -49,8 +49,8 @@
     "relUrl": "/docs/copy-sql.html"
   }
   ,"8": {
-    "title": "Discussion",
-    "content": "Discussion . You can use 钉钉 to discuss anything with us about the plugin. . Just scan the QR bellow to join the discussion. . .",
+    "title": "Discussion/Coupon",
+    "content": "Discussion . You can use 钉钉 to discuss anything with us about the plugin. . Just scan the QR bellow to join the discussion. . . Coupon . We have a limited number of coupons available for our old MyBatis plugin paid customers. The top 50 paid users of MyBatis plugin joining the DingTalk group can get a coupon. .",
     "url": "http://localhost:4000/docs/discussion.html",
     "relUrl": "/docs/discussion.html"
   }
