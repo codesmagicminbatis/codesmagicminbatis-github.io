@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Auto Folding/Unfolding
-nav_order: 4
+nav_order: 5
 ---
 
 # Auto Folding/Unfolding
