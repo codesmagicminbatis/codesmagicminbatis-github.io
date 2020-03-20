@@ -11,6 +11,11 @@ With the Find Usages actions you can search for the references of your code elem
 You can find more about ```Find Usage``` at [Search for usages](https://www.jetbrains.com/help/idea/find-highlight-usages.html).
 
 With MinBatis, you can find the usage of elements that may be potentially used by MyBatis framework.
+You can also use ```Declaration or Usage``` action to find usages if the caret is placed at the declaration element.
+
+## Attribute Value
+
+![attribute value](/assets/images/find-usage/attribute-value.png){:class="screenshot"}
 
 ## Getter/Setter Method
 

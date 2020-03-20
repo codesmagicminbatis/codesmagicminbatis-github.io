@@ -7,6 +7,10 @@ nav_order: 12
 # Rename Refactor
 Rename refactor is a common action in our daily work and MinBatis makes it easier when working with MyBatis framework.
 
+## attribute value staff
+
+TODO
+
 ## Rename Getter/Setter Method
 
 <div class="realtime">

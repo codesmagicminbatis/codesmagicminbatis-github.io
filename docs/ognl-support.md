@@ -23,3 +23,19 @@ Our previous **MyBatis plugin** can't parse OGNL identifier well which causes so
 MinBatis parses OGNL identifier the right way which provides the missing features.
 
 ![better](/assets/images/ognl-support/better.png){:class="screenshot"}
+
+# Parameter Object Key
+MinBatis uses custom lexer to handle ```_parameter```, you can use ```_parameter``` as normal identifier in OGNL
+
+# Identifier Highlighting
+
+![identifier highlighting](/assets/images/ognl-support/identifier-highlighting.png){:class="screenshot"}
+
+# Method Invocation
+
+![method invocation](/assets/images/ognl-support/method-invocation.png){:class="screenshot"}
+
+# Type Inference
+
+![type inference](/assets/images/ognl-support/type-inference.png){:class="screenshot"}
+
