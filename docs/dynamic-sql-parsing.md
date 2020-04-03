@@ -6,6 +6,7 @@ nav_order: 4
 
 # MyBatis Plugin
 There are two main issues that our previous *MyBatis Plugin* can't handle properly.
+
 Let's see what's are these.
 
 ## Dynamic SQL in Annotation
@@ -19,7 +20,9 @@ Let's see what's are these.
 ![syntax error](/assets/images/dynamic-sql-parsing/syntax-error.png){:class="screenshot"}
 
 # MinBatis
-**MinBatis** can parse dynamic SQL well and the two main issues are gone.
+**MinBatis** can parse dynamic SQL well.
+
+It trims/inserts appropriate tokens according to the semantic of dynamic tags (e.g. trim tag).
 
 ### Dynamic SQL in Annotation
 **MinBatis** supports dynamic SQL in Java annotation.

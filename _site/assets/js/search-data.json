@@ -1,148 +1,166 @@
 {
   
   "0": {
+    "title": "2020.1.4",
+    "content": "2020.1.4 . New Features Formatting in mapper XML | Indent in mapper XML | Renaming in mapper XML | Navigation in mapper XML | Find usage in mapper XML | XML auto-completion in mapper XML | Smart SQL auto-completion in mapper XML | Smart SQL auto-completion in dynamic SQL | Error highlighting in mapper XML | Extract/Inline SQL fragment in mapper XML | Copy SQL in mapper XML | Support marker attribute value separated with ‘.’ | Suppress unreasonable SQL syntax error in dynamic script and mapper XML | Support dynamic parameter in marker property | Rename attribute value variable in script and mapper XML | Support type alias | Rename mapper file when rename mapper interface if mapper file name matches interface name | Generate mapper XML file and statement in mapper XML | Reference elements between annotation and mapper XML | Support referencing multi result map | Update parameters when invoking ‘Add @Param’ action in dynamic script and mapper XML | Auto completion of result map and select statement defined as Java method | Find usage by go to declaration action | Add more inspections | Support ‘columnPrefix’ | Spring (Boot) integration | Report bug just from IDE | . | Updates Update add @Param context | Update short type name in auto-completion | Spring integration | . | Fixes Copy dynamic script with double quotation marks | Type inferring bugs | Native lib linking issue | . | .",
+    "url": "http://localhost:4000/docs/change-log/2020-1-4.html",
+    "relUrl": "/docs/change-log/2020-1-4.html"
+  }
+  ,"1": {
+    "title": "2020.1.5",
+    "content": "2020.1.5 . New Features Type inference for OGNL method invocation | Identifier error highlighting in OGNL | Auto-completion for OGNL method invocation | Navigation for OGNL method invocation | . | Updates Improve dynamic tags parser | API compatibility on IntelliJ 2020.1 | . | Fixes Formatting issue after refactor | Bind name resolving and completion issue | SQL editing issue | Cache stability issue | NPE | . | .",
+    "url": "http://localhost:4000/docs/change-log/2020-1-5.html",
+    "relUrl": "/docs/change-log/2020-1-5.html"
+  }
+  ,"2": {
+    "title": "2020.1",
+    "content": "2020.1 . New Features Dynamic SQL Parsing | Auto folding/unfolding | Auto SQL indent | SQL Format | Context/Type Infer | Add @Param annotation | Code Completion | Find Usage | Renaming | Inspections | OGNL Support | . | .",
+    "url": "http://localhost:4000/docs/change-log/2020-1.html",
+    "relUrl": "/docs/change-log/2020-1.html"
+  }
+  ,"3": {
     "title": "Add @Param Annotation",
-    "content": "Add @Param Annotation . MinBatis provides an intention action to add @Param to method parameter more convenient. MinBatis automatically adds prefix to existing parameter in SQL statement when adding @Param annotation. This is also a very useful feature when we do refactor (e.g., add more parameter to the mapper method, etc.). .",
+    "content": "Add @Param Annotation . MinBatis provides an intention action to add @Param to method parameter more convenient. MinBatis automatically adds prefix to corresponding parameter in SQL statement and dynamic tags when adding @Param annotation. This is also a very useful feature when we do refactor (e.g., add more parameter to the mapper method, etc.). .",
     "url": "http://localhost:4000/docs/add-param-annotation.html",
     "relUrl": "/docs/add-param-annotation.html"
   }
-  ,"1": {
+  ,"4": {
     "title": "Auto Folding/Unfolding",
     "content": "Auto Folding/Unfolding . In order to improve SQL readability, MinBatis auto folds SQL statement in Java annotation when it loses focus and a SQL statement is unfolded when it get focused again to make it easy for editing. Focus here means that the caret is placed on a SQL statement. . . Auto-unfolding is made 500ms delayed when a SQL statement get focused in order to avoid unexpected unfolding when we move caret by keyboard narrows quickly. . Let’s see what it looks like: .",
     "url": "http://localhost:4000/docs/auto-folding-unfolding.html",
     "relUrl": "/docs/auto-folding-unfolding.html"
   }
-  ,"2": {
+  ,"5": {
     "title": "Auto SQL Indent",
     "content": "SQL Indent . Indention is the string (containing of tabs and/or white spaces) that will be inserted automatically before the caret after you type ↩. . Normal SQL Indent . MinBatis support indent for normal SQL indent. . Dynamic SQL Indent . Indention works for script as well. .",
     "url": "http://localhost:4000/docs/auto-sql-indent.html",
     "relUrl": "/docs/auto-sql-indent.html"
   }
-  ,"3": {
+  ,"6": {
     "title": "CDATA Aware",
     "content": "CDATA Aware . Dynamic SQL is made CDATA aware in Java annotation and highlight it using gray color so that we can focus on SQL which we care more. . .",
     "url": "http://localhost:4000/docs/cddata-aware.html",
     "relUrl": "/docs/cddata-aware.html"
   }
-  ,"4": {
+  ,"7": {
+    "title": "Change Log",
+    "content": "Change Log .",
+    "url": "http://localhost:4000/docs/change-log",
+    "relUrl": "/docs/change-log"
+  }
+  ,"8": {
     "title": "Code Completion",
     "content": "Code Completion . MinBatis provides various auto-completion and it’s smart enough to suggest completion strings according to different contexts. . Data Source . MinBatis provides IntelliJ data source integration which many data source related features are built upon (e.g., auto-completion, inspections, navigation, refactoring, etc.) You can find more details about how to setup data source at Managing data sources. . SQL Dialect . Some features are available as soon as SQL dialect is configured, so you’d better configure the SQL dialect for your project. You can find more details about how to configure SQL dialect at SQL Dialects. . SQL Provider Method Auto-Completion . . Script Auto-Completion . . Parameter Auto-Completion . . Result Property Auto-Completion . . Various Column Auto-Completion . . Arg Name Auto-Completion . . Chained Auto-Completion . . Indexed Auto-Completion . . Support Generic . . Context Aware Auto-Completion . . Attribute Auto-Completion . . Reference Auto-Completion . . Options Key Property Auto-Completion . . Select Key Property Auto-Completion . . Select Key Column Auto-Completion . . More . There are more auto-completions available that we’re not listing here. .",
     "url": "http://localhost:4000/docs/code-completion.html",
     "relUrl": "/docs/code-completion.html"
   }
-  ,"5": {
+  ,"9": {
     "title": "Compatibility",
     "content": "Compatibility . MinBatis may not be compatible with the following plugins: . Our previous MyBatis plugin | MyBatisCodeHelperPro | . Missing Features . You can Contact Us if you need any features that incompatible plugins provide. .",
     "url": "http://localhost:4000/docs/compatibility.html",
     "relUrl": "/docs/compatibility.html"
   }
-  ,"6": {
+  ,"10": {
     "title": "Convert to Dynamic SQL",
     "content": "Convert to Dynamic SQL . There are times while writing plain SQL, we find that we need dynamic SQL instead of plain one. MinBatis provides an intention action to convert plain SQL to dynamic SQL. This saves the time of moving caret and typing. The code is also well formatted after converted to dynamic SQL. .",
     "url": "http://localhost:4000/docs/convert-to-dynamic.html",
     "relUrl": "/docs/convert-to-dynamic.html"
   }
-  ,"7": {
+  ,"11": {
     "title": "Copy SQL",
     "content": "Copy SQL . There are situation we may need to copy the SQL (dynamic SQL) from our code. MinBatis provides an intention action to do this. It’s very useful in Java annotation and for dynamic SQL. MinBatis replaces proper elements for dynamic SQL when copying the SQL. . Do format SQL before copy it. .",
     "url": "http://localhost:4000/docs/copy-sql.html",
     "relUrl": "/docs/copy-sql.html"
   }
-  ,"8": {
+  ,"12": {
     "title": "Discussion/Coupon",
-    "content": "Discussion . You can use 钉钉 to discuss anything with us about the plugin. . Just scan the QR bellow to join the discussion. . . Coupon . We have a limited number of coupons available for our old MyBatis plugin paid customers. The top 50 paid users of MyBatis plugin joining the DingTalk group can get a coupon. .",
+    "content": "Coupon . We have some coupons available for our old MyBatis plugin paid customers. . Join the discussion group to get it and have fun. . Discussion . Telegram . Use Telegram to visit us. . 钉钉 . Scan the QR bellow to join the 钉钉 group. . .",
     "url": "http://localhost:4000/docs/discussion.html",
     "relUrl": "/docs/discussion.html"
   }
-  ,"9": {
+  ,"13": {
     "title": "Dynamic SQL Parsing",
-    "content": "MyBatis Plugin . There are two main issues that our previous MyBatis Plugin can’t handle properly. Let’s see what’s are these. . Dynamic SQL in Annotation . MyBatis Plugin can’t parse dynamic SQL in Java annotation which causes many unexpected errors like this: . . Parse Dynamic SQL . MyBatis Plugin can’t parse dynamic SQL which causes that some syntax errors are ignored. . . MinBatis . MinBatis can parse dynamic SQL well and the two main issues are gone. . Dynamic SQL in Annotation . MinBatis supports dynamic SQL in Java annotation. . . Parse Dynamic SQL . MinBatis parses dynamic SQL properly. . . Other Features . As we’ll see that some other features are implemented based on the correctly parsed dynamic SQL. .",
+    "content": "MyBatis Plugin . There are two main issues that our previous MyBatis Plugin can’t handle properly. . Let’s see what’s are these. . Dynamic SQL in Annotation . MyBatis Plugin can’t parse dynamic SQL in Java annotation which causes many unexpected errors like this: . . Parse Dynamic SQL . MyBatis Plugin can’t parse dynamic SQL which causes that some syntax errors are ignored. . . MinBatis . MinBatis can parse dynamic SQL well. . It trims/inserts appropriate tokens according to the semantic of dynamic tags (e.g. trim tag). . Dynamic SQL in Annotation . MinBatis supports dynamic SQL in Java annotation. . . Parse Dynamic SQL . MinBatis parses dynamic SQL properly. . . Other Features . As we’ll see that some other features are implemented based on the correctly parsed dynamic SQL. .",
     "url": "http://localhost:4000/docs/dynamic-sql-parsing.html",
     "relUrl": "/docs/dynamic-sql-parsing.html"
   }
-  ,"10": {
+  ,"14": {
     "title": "Extract/Inline SQL Fragment",
-    "content": "TODO .",
+    "content": "Extract SQL Fragment . Select some SQL statements which can contain any XML tags and can use shortcut ⌥ + ⌘ + F on Mac and Alt + Ctrl + F on Windows to extract SQL fragment: . . Inline SQL Fragment . Place the caret at the id of a &lt;sql/&gt; tag or the refid of a &lt;include/&gt; tag and use shortcut ⌥ + ⌘ + N on Mac and Alt + Ctrl + N on Windows to inline SQL fragment: . .",
     "url": "http://localhost:4000/docs/extract-inline-sql.html",
     "relUrl": "/docs/extract-inline-sql.html"
   }
-  ,"11": {
+  ,"15": {
     "title": "Find Usage",
     "content": "Find Usage . When you write or edit code, you might come across a code element that you want to change or delete. Before you make the changes, it is a good practice to see where the code element is used and how it affects the application. With the Find Usages actions you can search for the references of your code element throughout the whole codebase. You can find more about Find Usage at Search for usages. . With MinBatis, you can find the usage of elements that may be potentially used by MyBatis framework. You can also use Declaration or Usage action to find usages if the caret is placed at the declaration element. . Attribute Value . . Getter/Setter Method . . Bean Field . . Parameter . . @Param . . Constructor Parameter . . Table Column . . Mark Symbol as Used . Without MinBatis, some symbols will be marked as never used or never assigned by IntelliJ IDEA even if it’s actually used by MyBatis framework. . . MinBatis can detect those symbols used by MyBatis framework and mark them as used, finally the highlighting is gone. This also works for private members. . .",
     "url": "http://localhost:4000/docs/find-usage.html",
     "relUrl": "/docs/find-usage.html"
   }
-  ,"12": {
+  ,"16": {
     "title": "Generate Statement",
-    "content": "TODO .",
+    "content": "Add Statement In Mapper XML . MinBatis introduces an intention action to create statement in mapper XML. . . Inspection . Warning are propagated for the mapper methods without statement both in annotation and mapper XML. . .",
     "url": "http://localhost:4000/docs/generate-stmt.html",
     "relUrl": "/docs/generate-stmt.html"
   }
-  ,"13": {
+  ,"17": {
     "title": "Home",
     "content": "Focus on your application . MinBatis is a desired IntelliJ IDEA plugin for these users who are working with MyBatis framework. It saves you a lot of time on typing and helps you discover errors early. . Purchase Download . . Getting started . Download IntelliJ IDEA . MinBatis runs as a plugin of IntelliJ IDEA Ultimate. You need to install IntelliJ IDEA Ultimate first, visit here to download and install it. . Install MinBatis . If this is the first time you’ve started the app, you’ll see the welcome screen: . . To install MinBatis, open the plugins dialog from the configure menu: . . Type MinBatis to search it and then install the plugin from browse repositories dialog: . . You need to restart the IDEA after you install the plugin. .",
     "url": "http://localhost:4000/",
     "relUrl": "/"
   }
-  ,"14": {
+  ,"18": {
     "title": "Inspections",
     "content": "Error Highlighting . MinBatis resolves symbols according to how MyBatis framework uses them and highlights the symbols which MyBatis framework can’t parse. This feature can lead us to discover our code error earlier before we run the application. . . Inspections . MinBatis have many inspections which are implemented based on MyBatis source code. They are very useful and save us a lot of time on debugging. There are many inspections available now and we gonna add more of them in the future. . .",
     "url": "http://localhost:4000/docs/inspections.html",
     "relUrl": "/docs/inspections.html"
   }
-  ,"15": {
+  ,"19": {
+    "title": "Known Issue",
+    "content": "Known Issue . Escape In Java/Kotlin Annotation . A exception will be propagated if we escape special character in dynamic script . . . There is a known issue in the IntelliJ platform, see IDEA-225126 for more details. We’ll keep an eye on this and improve it as soon as it’s fixed in the IntelliJ platform. .",
+    "url": "http://localhost:4000/docs/known-issue.html",
+    "relUrl": "/docs/known-issue.html"
+  }
+  ,"20": {
     "title": "Navigation",
-    "content": "Navigation . With MinBatis, we can navigate through code using different actions and popups. Navigation is context-aware which means it navigates to different elements according to different contexts. . mapper/xml staff . TODO .",
+    "content": "Navigation . With MinBatis, we can navigate through code using different actions and popups. Navigation is context-aware which means it navigates to different elements according to different contexts. . Navigate to Mapper XML . You can use both the gutter icon or shortcut ⌥ + ⌘ + B on Mac and Alt + Ctrl + B on Windows to navigate to mapper XML from mapper method: . . Navigate to Mapper Method . You can use both the gutter icon or shortcut ⌘ + B on Mac and Ctrl + B on Windows to navigate to mapper method from mapper statement: . .",
     "url": "http://localhost:4000/docs/navigation.html",
     "relUrl": "/docs/navigation.html"
   }
-  ,"16": {
+  ,"21": {
     "title": "OGNL Support",
     "content": "OGNL Support . MyBatis uses OGNL to support dynamic SQL which is very powerful. You can find more details about OGNL at Dynamic SQL. . You can use it with following elements in dynamic SQL: . if | when | bind | dynamic parameter | . MinBatis integrates OGNL to support auto-completion, inspections, navigation, refactoring, etc. . . OGNL Identifier . Our previous MyBatis plugin can’t parse OGNL identifier well which causes some features (e.g., identifier chain, find usage, rename refactor, etc.) are missing. MinBatis parses OGNL identifier the right way which provides the missing features. . . Parameter Object Key . MinBatis uses custom lexer to handle _parameter, you can use _parameter as normal identifier in OGNL . Identifier Highlighting . . Method Invocation . . Type Inference . .",
     "url": "http://localhost:4000/docs/ognl-support.html",
     "relUrl": "/docs/ognl-support.html"
   }
-  ,"17": {
+  ,"22": {
     "title": "Parameter Expression",
     "content": "Parameter Expression . Mybatis supports simple parameter expression in SQL statements. Parameters can specify a more specific data type in SQL parameter with parameter expression. You can find more details about parameter expression at MyBatis Documentation and ParameterExpression . Builtin Support . The plugin integrates parameter expression as a custom language in IntelliJ. It’s context-aware and very useful. . Color Scheme . You can customize the color scheme for the custom language in settings. Open the configuration dialog via Preferences/Settings -&gt; Editor -&gt; Color Scheme -&gt; Min Marker. . .",
     "url": "http://localhost:4000/docs/parameter-expression.html",
     "relUrl": "/docs/parameter-expression.html"
   }
-  ,"18": {
-    "title": "Extract/Inline SQL Fragment",
-    "content": "TODO .",
+  ,"23": {
+    "title": "Rename Mapper",
+    "content": "Rename Mapper . The plugin renames the corresponding mapper XML if you rename a mapper class if their names match: . &nbsp;",
     "url": "http://localhost:4000/docs/rename-mapper-xml.html",
     "relUrl": "/docs/rename-mapper-xml.html"
   }
-  ,"19": {
+  ,"24": {
     "title": "Rename Refactor",
-    "content": "Rename Refactor . Rename refactor is a common action in our daily work and MinBatis makes it easier when working with MyBatis framework. . attribute value staff . TODO . Rename Getter/Setter Method . Rename Bean Field . Rename Parameter . Rename @Param . Rename Constructor Parameter . Rename Table Column .",
+    "content": "Rename Refactor . Rename refactor is a common action in our daily work and MinBatis makes it easier when working with MyBatis framework. . Attribute Value . &nbsp; Rename Getter/Setter Method . Rename Bean Field . Rename Parameter . Rename @Param . Rename Constructor Parameter . Rename Table Column .",
     "url": "http://localhost:4000/docs/rename-refactor.html",
     "relUrl": "/docs/rename-refactor.html"
   }
-  ,"20": {
-    "title": "Extract/Inline SQL Fragment",
-    "content": "TODO .",
+  ,"25": {
+    "title": "Spring Integration",
+    "content": "Spring Integration . The plugin registers mapper classes as Spring beans, so the Spring plugin can detect mapper classes as bean classes . .",
     "url": "http://localhost:4000/docs/spring.html",
     "relUrl": "/docs/spring.html"
   }
-  ,"21": {
+  ,"26": {
     "title": "SQL Format",
     "content": "SQL Format . MinBatis can format SQL (dynamic SQL) in Java annotation. . Code Style . We can configure the code style via Preferences/Settings -&gt; Editor -&gt; Code Style -&gt; MinBatis. . Formatter Control . Use formatter marker to disable code formatting for some part of the code. Open the configuration dialog via Preferences/Settings -&gt; Editor -&gt; Code Style -&gt; Formatter Control. . .",
     "url": "http://localhost:4000/docs/sql-format.html",
     "relUrl": "/docs/sql-format.html"
-  }
-  ,"22": {
-    "title": "",
-    "content": "TODO .",
-    "url": "http://localhost:4000/docs/known-issue.html",
-    "relUrl": "/docs/known-issue.html"
-  }
-  ,"23": {
-    "title": "",
-    "content": "TODO .",
-    "url": "http://localhost:4000/docs/unreasonable-error.html",
-    "relUrl": "/docs/unreasonable-error.html"
   }
   
 }

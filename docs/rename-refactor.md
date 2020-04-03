@@ -7,9 +7,10 @@ nav_order: 12
 # Rename Refactor
 Rename refactor is a common action in our daily work and MinBatis makes it easier when working with MyBatis framework.
 
-## attribute value staff
-
-TODO
+## Attribute Value
+<div class="realtime">
+    <script src="https://fast.wistia.com/embed/medias/ml1mp666l9.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:75.31% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_ml1mp666l9 videoFoam=true" style="height:100%;position:relative;width:100%">&nbsp;</div></div></div>
+</div>
 
 ## Rename Getter/Setter Method
 

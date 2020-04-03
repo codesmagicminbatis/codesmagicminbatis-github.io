@@ -4,14 +4,20 @@ title: Discussion/Coupon
 nav_order: 3
 ---
 
-# Discussion
-You can use [钉钉](https://www.dingtalk.com/) to discuss anything with us about the plugin.
-
-Just scan the QR bellow to join the discussion.
-
-![dingding](../assets/images/discussion/dingding.jpeg){:class="qr"}
-
 # Coupon
 
-We have a limited number of coupons available for our old ```MyBatis plugin``` paid customers.
-The top 50 paid users of ```MyBatis plugin``` joining the DingTalk group can get a coupon.
+We have some coupons available for our old ```MyBatis plugin``` paid customers.
+
+Join the discussion group to get it and have fun.
+
+# Discussion
+
+## Telegram
+
+Use [Telegram](https://t.me/joinchat/M91fyhReRvkHeesLpmGmtw) to visit us.
+
+## 钉钉
+
+Scan the QR bellow to join the 钉钉 group.
+
+![dingding](../assets/images/discussion/dingding.jpeg){:class="qr"}
