@@ -4,7 +4,7 @@ title: Discussion/Coupon
 nav_order: 3
 ---
 
-# **MyBatis plugin**
+# MyBatis plugin
 
 ```MyBatis plugin``` is deprecated, and it becomes free to use now. You can download it from the [plugin repository](https://plugins.jetbrains.com/plugin/7293-mybatis-plugin).
 
