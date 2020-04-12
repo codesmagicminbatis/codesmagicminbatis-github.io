@@ -6,7 +6,7 @@ nav_order: 3
 
 # MyBatis plugin
 
-```MyBatis plugin``` is deprecated, and it is now available as a free plugin for all users. 
+~~MyBatis plugin~~ is deprecated, and it is now available as a free plugin for all users. 
 
 You can download it from the [plugin repository](https://plugins.jetbrains.com/plugin/7293-mybatis-plugin).
 
