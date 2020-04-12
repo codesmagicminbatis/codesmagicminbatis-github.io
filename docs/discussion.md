@@ -4,11 +4,15 @@ title: Discussion/Coupon
 nav_order: 3
 ---
 
+# **MyBatis plugin**
+
+```MyBatis plugin``` is deprecated, and it becomes free to use now. You can download it from the [plugin repository](https://plugins.jetbrains.com/plugin/7293-mybatis-plugin).
+
 # Coupon
 
-We have some coupons available for our old ```MyBatis plugin``` paid customers.
+If you prefer MinBatis, we have some coupons available for you if you purchased the old ```MyBatis plugin```.
 
-Join the discussion group to get it and have fun.
+Join the discussion group or email [US](mailto:service@codesmagic.com?subject=MinBatis%20Coupon) at to get it and then have fun.
 
 # Discussion
 
