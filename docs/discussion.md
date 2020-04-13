@@ -28,6 +28,6 @@ Use [Telegram](https://t.me/joinchat/M91fyhReRvkHeesLpmGmtw) to visit us.
 
 ## 钉钉
 
-Scan the QR bellow to join the 钉钉 group.
+扫描下面的二维码加入钉钉群.
 
 ![dingding](../assets/images/discussion/dingding.jpeg){:class="qr"}
