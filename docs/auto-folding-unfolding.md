@@ -11,7 +11,7 @@ and a SQL statement is unfolded when it get focused again to make it easy for ed
 
 ![folding](/assets/images/auto-folding-unfolding/folding.png){:class="screenshot"}
 
-Auto-unfolding is made 500ms delayed when a SQL statement get focused in order to avoid unexpected unfolding when we move caret by keyboard narrows quickly.
+Auto-unfolding is made 500ms delayed when an SQL statement get focused in order to avoid unexpected unfolding when we move caret by keyboard narrows quickly.
 
 Let's see what it looks like:
 
