@@ -10,6 +10,8 @@ nav_order: 3
 
 You can download it from the [plugin repository](https://plugins.jetbrains.com/plugin/7293-mybatis-plugin).
 
+**Feel free to use it, critical bugs will be fixed, and we'll keep the compatibility for IDEA major release.**
+
 # Coupon
 
 If you prefer MinBatis, we have some coupons available for you if you purchased the old ```MyBatis plugin```.
