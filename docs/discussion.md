@@ -11,6 +11,7 @@ nav_order: 3
 You can download it from the [plugin repository](https://plugins.jetbrains.com/plugin/7293-mybatis-plugin).
 
 **Feel free to use it, critical bugs will be fixed, and we'll keep the compatibility for IDEA major release.**
+
 **Join the discussion group described bellow or email [US](mailto:service@codesmagic.com?subject=MyBatis%20Plugin%20Question) if you have ANY questions.**
 
 # Coupon
